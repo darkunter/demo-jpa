@@ -3,7 +3,7 @@
 version: "2"
 prepare:
   fetch:
-    - url: "https://github.com/checkstyle/checkstyle/blob/checkstyle-8.18/src/main/resources/google_checks.xml"
+    - url: "https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.18/src/main/resources/google_checks.xml"
       path: ".checkstyle.xml"
 plugins:
   # https://www.sonarsource.com/products/codeanalyzers/sonarjava.html
