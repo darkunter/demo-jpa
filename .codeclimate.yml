@@ -5,7 +5,6 @@ prepare:
   fetch:
     - url: "https://github.com/checkstyle/checkstyle/blob/checkstyle-8.18/src/main/resources/google_checks.xml"
       path: ".checkstyle.xml"
-checks:
 plugins:
   # https://www.sonarsource.com/products/codeanalyzers/sonarjava.html
   sonar-java:
@@ -17,4 +16,3 @@ plugins:
     enabled: true
     config:
       file: ".checkstyle.xml"
-exclude_patterns:
